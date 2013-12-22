@@ -17,10 +17,11 @@ trap("SIGINT") {
 # Simple Banner
 def banner
   puts
-  puts "Zipy - A Zip Archive Cracker"
-  puts "By: Osanda Malith and Hood3dRob1n"
+  puts "[+] Zipy - A Zip Archive Cracker"
+  puts "[+] Osanda Malith and Hood3dRob1n"
+  puts "[+] OsandaJayathissa@gmail.com"
 end
-
+#Big Thanks to my best buddie Hood3dRob1n
 # Simple Terminal Clear
 def cls
   if RUBY_PLATFORM =~ /win32|win64|WoW64|\.NET|windows/i
