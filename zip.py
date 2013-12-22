@@ -15,8 +15,7 @@
 # /!\ Use this for educational purposes only.
 #-------------------------------------------------------------------------------
 
-import zipfile
-import os
+import zipfile, os
 import optparse
 from threading import Thread
 
@@ -55,6 +54,7 @@ Y8888888P dP 88Y888P'     dP        dP dP `88888P'
 
 def main():
         banner()
+        os.system('color 0a')
         parser = optparse.OptionParser("%prog "+"-f <zipfile>,\
  -d <dictionary>")
         parser.add_option('-f', dest='fname', type='string',\
